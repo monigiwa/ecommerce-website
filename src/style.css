@@ -1,0 +1,21 @@
+:root {
+  --secondary-font-family: "Kalam", cursive;
+  /* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+}
+nav {
+  padding: 20px 0;
+}
+a {
+  text-decoration: none;
+  font-family: var(--secondary-font-family);
+  color: brown;
+}
+a .pgh-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+ul li {
+  list-style: none;
+}
