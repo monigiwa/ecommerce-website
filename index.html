@@ -31,27 +31,58 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <div class="container">
-      <header>
-        <nav>
-          <a href="index.html" title="Homepage">
-            <img
-              src="images/pgh logo.jpeg"
-              alt="This is a picture of PGH Logo"
-              class="img-fluid pgh-logo"
-            />
-            PGH Autos</a
-          >
-          <ul>
-            <li>Home</li>
-            <li>Store</li>
-            <li>Contact</li>
-            <li>Cart</li>
-            <li>Sign-up</li>
-          </ul>
-        </nav>
-      </header>
+  <body id="bootstrap-override">
+    <div class="main-section">
+      <div class="container">
+        <header>
+          <nav>
+            <a href="index.html" title="Homepage">
+              <img
+                src="images/pgh logo.jpeg"
+                alt="This is a picture of PGH Logo"
+                class="img-fluid pgh-logo"
+              />
+              PGH <span class="logo-span">Autos</span></a
+            >
+            <ul>
+              <li>
+                <a href="/index.html">Home</a>
+              </li>
+              <li>
+                <a href="#">Store</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="">Cart</a>
+              </li>
+              <li>
+                <a href="">Sign-up</a>
+              </li>
+            </ul>
+            <div class="search-bar">
+              <form action="">
+                <input
+                  type="search"
+                  name="Search-categories"
+                  id="search-bar-categories"
+                  class="form=control rounded search-input"
+                  placeholder="Search..."
+                  aria-label="Search"
+                  aria-describedby="basic-addon2"
+                />
+                <button class="btn search-btn" id="button-addon2" type="submit" title="Search Store">
+                  <i class="fa fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </nav>
+        </header>
+      </div>
+      <div class="banner">
+        <div class="container"></div>
+      </div>
     </div>
   </body>
 </html>

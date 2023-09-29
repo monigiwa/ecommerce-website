@@ -6,37 +6,60 @@ font-family: 'Poppins', sans-serif; */
 body {
   margin: 0;
   padding: 0;
-  position: relative;
-  background-image: url("/images/cars4.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  backdrop-filter: blur(3px);
-  height: 100vh;
 }
-/* body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-} */
 nav {
-  padding: 20px 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--secondary-font-family);
 }
-a {
+ul {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+ul li {
+  list-style: none;
+  margin-right: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+nav a {
   text-decoration: none;
   font-family: var(--secondary-font-family);
-  color: white;
   font-weight: bold;
+  color: black;
 }
 a .pgh-logo {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-ul li {
-  list-style: none;
+.main-section {
+  height: 100vh;
+}
+.banner {
+  position: relative;
+  background-image: url("/images/cars4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 590px;
+  width: 100%;
+  /* word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word; */
+}
+
+.logo-span {
+  color: brown;
+}
+#bootstrap-override .search-btn{
+  background: brown;
+  color: white;
+}
+#bootstrap-override .search-input{
+  outline: none;
 }
